@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm run dev --prefix ../client",
+    "client": "npm run dev --prefix ./catevika_shoplineart-client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "keywords": [],
