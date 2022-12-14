@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm run dev --prefix ./catevika_shoplineart-client",
+    "client": "npm run dev --prefix ../client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "keywords": [],
@@ -23,7 +23,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.8.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13"
