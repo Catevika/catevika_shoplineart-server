@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch index.js",
+    "start": "node index.js",
     "server": "node --watch index.js",
     "client": "npm run dev --prefix ../client",
     "dev": "concurrently \"npm start\" \"npm run client\""
