@@ -1,5 +1,13 @@
 # ShopLineArt SERVER
 
+## Table of Content <!-- omit in toc -->
+
+- [ShopLineArt SERVER](#shoplineart-server)
+  - [General Information](#general-information)
+  - [NPM packages](#npm-packages)
+  - [ShopLineArt CLIENT](#shoplineart-client)
+  - [To clone the ShopLineArt app SERVER and CLIENT repositories](#to-clone-the-shoplineart-app-server-and-client-repositories)
+
 ## General Information
 
 - Node server: **Express**
