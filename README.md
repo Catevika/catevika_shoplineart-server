@@ -1,5 +1,7 @@
 # ShopLineArt SERVER
 
+![ShopLineArt](../client/src/assets/ShopLineArt.png)
+
 ## Table of Content <!-- omit in toc -->
 
 - [ShopLineArt SERVER](#shoplineart-server)
