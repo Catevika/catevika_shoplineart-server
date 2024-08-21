@@ -1,0 +1,14 @@
+# Exported from Render on 2024-08-21T12:04:51Z
+services:
+  - type: web
+    name: shoplineart-api
+    runtime: node
+    repo: https://github.com/Catevika/catevika_shoplineart-server
+    plan: free
+    envVars:
+      - key: .env
+        sync: false
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npm start
+version: '1'
