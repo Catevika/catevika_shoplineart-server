@@ -1,31 +1,35 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "server": "node --watch index.js",
-    "client": "npm run dev --prefix ../client",
-    "dev": "concurrently \"npm start\" \"npm run client\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.20.0",
-    "morgan": "^1.10.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "concurrently": "^10.0.3"
-  }
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"node": ">=22.0.0",
+	"scripts": {
+		"start": "node index.js",
+		"server": "node --watch index.js",
+		"client": "npm run dev --prefix ../client",
+		"dev": "concurrently \"npm start\" \"npm run client\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"cors": "^2.8.6",
+		"dotenv": "^17.4.2",
+		"express": "^5.2.1",
+		"helmet": "^8.3.0",
+		"jsonwebtoken": "^9.0.3",
+		"mongoose": "^8.20.0",
+		"morgan": "^1.11.0",
+		"path": "^0.12.7"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"concurrently": "^10.0.5"
+	},
+	"allowScripts": {
+		"bcrypt@6.0.0": true
+	}
 }
